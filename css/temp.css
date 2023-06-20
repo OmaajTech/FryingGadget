@@ -1,0 +1,381 @@
+.names {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #8a8d93;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#show_case {
+    display: none;
+}
+
+.backages {
+    display: block;
+}
+
+.blockage {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.wording {
+    text-align: center;
+    margin: 25px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ededed;
+}
+
+.block {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    background: #2d3035;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+
+.block.time {
+    margin-right: 20px;
+}
+
+.block.topper {
+    margin-top: 20px;
+}
+
+.block .gadget {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f7921a;
+    margin-bottom: 30px;
+}
+
+.block .progress-circular {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    /* color: #ff4757; */
+    align-items: center;
+    border-radius: 50%;
+    background: conic-gradient( #ff4757 0deg, #ededed 0deg);
+}
+
+.progress-circular::after {
+    position: absolute;
+    content: '';
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: #bbbdc0;
+}
+
+
+.block .progress-circular .value {
+    font-size: 60px;
+    font-weight: 600;
+    color: #ff4757;
+    z-index: 9;
+}
+.block .progress-circular1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px;
+    background: conic-gradient( #f7596e 360deg, #ededed 0deg);
+}
+
+.progress-circular1::after {
+    position: absolute;
+    content: '';
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+.block .progress-circular1 .value {
+    font-size: 25px;
+    font-weight: 600;
+    color: #f7596e;
+    z-index: 9;
+}
+.block .progress-circular2 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px;
+    background: conic-gradient( #23ad5c 60deg, #ededed 0deg);
+}
+
+.progress-circular2::after {
+    position: absolute;
+    content: '';
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+.block .progress-circular2 .value {
+    font-size: 35px;
+    font-weight: 600;
+    color: #23ad5c;
+    z-index: 9;
+}
+
+.scopee {
+    display: none;
+}
+
+.block .text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #babfca;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+.block .text span {
+    display: block;
+    font-size: 14px;
+    color: #8a8d93;
+}
+
+.span {
+    font-size: 14px;
+}
+
+.block .btn {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.block .btn input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #8a8d93;
+    border-radius: 10px 10px 0 0;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #8a8d93;
+}
+
+.block .btn button {
+    border-radius:  0 0 10px 10px;
+    outline: none;
+    background: #8a8d93;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.block .btn button:active {
+    color: #8a8d93;
+}
+
+.btnns {
+    margin: 40px 20rem;
+    text-align: center;
+}
+
+.btnns button {
+    width: 100%;
+    height: 53px;
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    background: #ff4757;
+    /* padding-left: 45px;
+    padding-right: 60px; */
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: no-drop;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.btnns button.appear {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+/* PROGRSSING FOR CASSAVA */
+.graphichs {
+    /* display: none; */
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.down {
+    margin-top: 20px;
+}
+
+.graphichs .placer {
+    background: #292c32;
+    /* height: 40px; */
+    padding: 20px;
+    color: #8a8d93;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.graphichs .box {
+    /* padding: 2rem; */
+    border-radius: 20px;
+    background: #2d3035;
+    width: 100%;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+}
+
+.graphichs .box.boxer {
+    margin-top: 2rem;
+}
+
+.graphichs .box canvas {
+    padding: 0 2rem 2rem 2rem;
+} 
+
+#showcase, 
+#showcase_1,
+#showcase_2 {
+    display: none;
+}
+
+
+/* LOADING */
+.loading-page {
+    margin-top: 20px;
+    /* background: #0d0d0d; */
+    width: 100%;
+    /* height: 100vh; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.loading-page .counter {
+    position: relative;
+    width: 100%;
+    transition: all 0.4s linear;
+}
+
+.loading-page .counter p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f60d54;
+    text-align: center;
+    text-transform: uppercase;
+}
+.loading-page .counter h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.loading-page .counter h1.abs {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.loading-page .counter hr {
+    background: #23ad5c;
+    border: none;
+    height: 3px;
+    width: 100%;
+    transition: all 0.4s linear;
+    margin-bottom: 30px;
+} 
+
+
+.loading-page .counter .color {
+    width: 0px;
+    overflow: hidden;
+    color: #f60d54;
+}
+
+.warning .warning_1{
+    margin: 25px 80px;
+    text-align: center;
+    line-height: 1.6;
+    color: #f60d54;
+    font-size: 15px;
+    font-weight: 600;
+    display: none;
+}
+
+
+.btn_1 {
+    margin: 3rem 14rem 0 14rem;
+    text-align: center;
+    display: none;
+}
+
+.btn_1 button {
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: #ff4757;
+    opacity: 0.8;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn_1 button:hover {
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+.btn_1 button:active {
+    transform: scale(0.90);
+    transition: all 0.4s ease;
+}
+
